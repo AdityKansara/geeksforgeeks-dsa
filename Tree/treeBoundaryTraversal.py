@@ -6,6 +6,7 @@ Time Complexity: O(n)
 Space Complexity: O(h) due to recursion stack, where h is the height of the tree
 """
 
+
 # Node class
 class Node:
     def __init__(self, val):

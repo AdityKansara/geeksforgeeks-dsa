@@ -5,6 +5,7 @@ Time Complexity: O(n)
 Space Complexity: O(n) for storing inorder traversal
 """
 
+
 # Node class
 class Node:
     def __init__(self, val):

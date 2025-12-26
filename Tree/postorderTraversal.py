@@ -1,9 +1,10 @@
 """
-Problem: Preorder Traversal of Binary Tree
-Approach: Depth-First Search (Preorder)
+Problem: Postorder Traversal of Binary Tree
+Approach: Depth-First Search (Postorder)
 Time Complexity: O(n)
 Space Complexity: O(h) due to recursion stack, where h is the height of the tree
 """
+
 
 # Node class
 class Node:
@@ -14,21 +15,21 @@ class Node:
 
 
 class Solution:
-    def preOrder(self, root):
-        # Helper function to perform preorder traversal
+    def postOrder(self, root):
+        # Helper function to perform postorder traversal
         def traverse(root):
             nodeList = []
 
             def dfs(node):
                 if node is None:
                     return
-                nodeList.append(node.data)
                 dfs(node.left)
                 dfs(node.right)
+                nodeList.append(node.data)
 
             dfs(root)
             return nodeList
 
-        # Get preorder traversal result
+        # Get postorder traversal result
         result = traverse(root)
         return result

@@ -5,6 +5,7 @@ Time Complexity: O(n) - each node is visited once
 Space Complexity: O(h) - recursion stack, where h is the height of the tree
 """
 
+
 # Node class
 class Node:
     def __init__(self, val):
