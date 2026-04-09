@@ -5,6 +5,7 @@ Approach: Binary search on the answer with a greedy feasibility check.
           are required if books are allocated contiguously.
 Time Complexity: O(n log(sum(arr))) – binary search with linear check
 Space Complexity: O(1) – constant extra space
+Created by AdityKansara
 """
 
 

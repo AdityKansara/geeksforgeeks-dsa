@@ -14,6 +14,21 @@ The goal is to **understand concepts deeply**, practice coding, and prepare for 
 
 ---
 
+## Topics Covered
+
+This repository includes common arrays and search algorithms from GeeksforGeeks, such as:
+
+- Array rotation and array manipulation
+- Left rotate array by one
+- Binary search and finding the first occurrence
+- Linear search and element lookup
+- Maximum and second maximum element search
+- Book allocation and binary-search-on-answer patterns
+
+The repo is designed for DSA practice, interview preparation, and Python implementation examples.
+
+---
+
 1. Clone the repository:
 
 ```bash
